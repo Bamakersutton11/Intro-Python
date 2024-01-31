@@ -1,3 +1,0 @@
-"Braheem Amaker - Sutton"
-
-'Braheem'
