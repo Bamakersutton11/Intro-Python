@@ -3,7 +3,7 @@
 # input takes in data from a user.
 # input()
 
-name = input('Please enter your name:')
+name = input('Enter your name here: ')
 
 # print outputs data from your program.
 # print()

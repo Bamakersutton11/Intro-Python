@@ -1,0 +1,4 @@
+1. One example of Abstraction is filling out an application online. 
+2. The difference between an integer and a float is the integer deals in whole numbers, while float deals in decimals. 
+3. A variable is something that contains unknown data. Variables are used to abstract data by being input into a program to determine data.
+4. 
