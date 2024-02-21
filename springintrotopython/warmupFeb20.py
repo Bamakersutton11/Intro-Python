@@ -32,5 +32,5 @@ def math(number):
 math(11)
 
 debit = 10000
-money = input()
+money = int(input())
 print(debit - money)
