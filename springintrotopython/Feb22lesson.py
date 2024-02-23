@@ -10,4 +10,4 @@ import datetime
 
 x = datetime.datetime.now()
 
-print(f"You made your transaction on " + x)
+print("You made your transaction on ")
