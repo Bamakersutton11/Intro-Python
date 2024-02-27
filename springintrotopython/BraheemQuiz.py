@@ -67,6 +67,10 @@ floatList = [6.14, 4.82, 5.96]
 # 12. What are the Three (3) naming formats we use for naming variables, files, and functions?
 # Camel Case, Pascal Case, and Snake Case 
 
+#Snake Case - we add an underscore after every word
+#Pascal Case - Every word starts with a capital letter
+#Camel Case - Every word after the first word starts with a capital letter
+
 # 13. Provide a coding scenario where you would you use a comparison operator in a program? 
 # A scenario is when you are making a fighting game where a player gets points to win
 # and making a system where the scores are compared to determine the winner.
@@ -84,3 +88,12 @@ print(currentScore < highScore)
 # Bonus : What does the type() function do?
 # The type() function allows the programmer to determine which
 # datatype is being used for a function.
+
+passcode = input('Enter code: ')
+Correctpasscode = 1121
+
+if passcode != Correctpasscode:
+    print('Passcode is incorrect')
+else: 
+    passcode == Correctpasscode
+    print('Passcode is correct')
