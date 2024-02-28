@@ -17,7 +17,7 @@ def doMath(number):
 # the arguments themselves are the actual data that we can add and , while the parameters are the 
 # 3)
 
-def futureMsg(name,):
+def futureMsg(name, age):
     futureAge = age + 10
     print(f'Good morning {name}, you will be {age} years old in 10 years')
 
