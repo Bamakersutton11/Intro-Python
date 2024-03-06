@@ -49,9 +49,9 @@ def elevatorFloors():
     else:
         print("Error: This is not a floor!")
 
-#elevatorFloors()
+elevatorFloors()
     
-
+print()
 #___________________________________________________________
 
 # Prompt #2- Amusement Park Conditional Function
@@ -77,11 +77,11 @@ def elevatorFloors():
 def rollerCoaster(height, age):
     if height >= 5.2 and age >= 14:
         print("The user is able to ride roller coaster 1.")
-    elif height <= 5.2 and age <= 14:
+    elif height <= 5.2 and age >= 14:
         print("The user is able to ride roller coaster 2.")
     elif height <= 5.2 and age < 14:
         print("The user is able to ride roller coaster 3.")
     else:
         print("Your information was entered incorrectly. Try again.")
 
-rollerCoaster(5.2, 6)
+rollerCoaster(5.0, 13)
