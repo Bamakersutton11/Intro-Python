@@ -29,6 +29,13 @@ def myFunction():
 
 # How to write a function in JavaScript
 
-function myFunction(){
-    console.log("Here are my instructions...")
-}
+# function myFunction(){
+    # console.log("Here are my instructions...")
+# }
+
+def wheather():
+    temperature = int(input("What is the wheather today? "))
+    if temperature <= 20:
+        print("It is cold outside.")
+
+wheather()
