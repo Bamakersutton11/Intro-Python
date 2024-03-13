@@ -21,6 +21,10 @@
 
 numnCol = ["red", "blue", "green" , 7, 21, 11]
 
+{} #Curly - These are used for objects
+[] #Square - These are used for lists
+() #Round - These are used for functions
+
 # 3. You have been hired by a University to create
 # a scholarship function. The client would like to provide 
 # students a scholarship to their school based on the following
@@ -33,5 +37,22 @@ numnCol = ["red", "blue", "green" , 7, 21, 11]
 # the client has given you the choice on how to enter data for your function.
 # you may enter data using input or pass in data into your function as parameters. 
 
+# Compare --> Logical operator - question is asking us to use the NOT operator
+
+# - If the user has never gotten a loan before and,
+#-  if the user has never been to college before.
+
 def scholarShip():
-    if 
+    userLoan = bool(input("Have you ever received a loan? True or False: "))
+    collegeEnrollment = bool(input("Have you ever been enrolled in college? True or False: "))
+    if not (userLoan == True and collegeEnrollment == True):
+        print("Congrats! You've gotten a scholarship!")
+    elif userLoan == True and collegeEnrollment == False:
+        print("We regret to tell you that you do not meet the requirements for a scholarship.")
+    elif userLoan == False and collegeEnrollment == True:
+        print("We regret to tell you that you do not meet the requirements for a scholarship.")
+    else:
+        print("We regret to tell you that you do not meet the requirements for a scholarship.")
+
+scholarShip()
+
