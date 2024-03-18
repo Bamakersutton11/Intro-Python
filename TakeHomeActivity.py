@@ -79,15 +79,19 @@ def memberShipDiscount():
 def unknownFunction_A(data1, data2):
     newData = data2 + 10
     print(f"hello, {data1}. Welcome to Boys Latin.")
-    print("by solving this, you have gotten"+ data2 "points added to your grade")
+    print(f"By solving this, you have gotten {newData} points added to your grade")
+
+unknownFunction_A('Braheem', 90)
 
 def unknownFunction_B(data1, data2):
     if data1 == "btp@gmail.com" and data2 == "abc123":
-	    print("Welcome, access granted.")
+        print("Welcome, access granted.")
     elif data1 != "btp@gmail.com" or data2 != "abc123":
- 	    print("Sorry, your information is incorrect")
+        print("Sorry, your information is incorrect")
     else:
         print(" Error: somthing went wrong. Try again")
+
+unknownFunction_B("abc123", "btp@gmail.com")
 
 # Programming Questions
 # How do you think technology has influenced and
