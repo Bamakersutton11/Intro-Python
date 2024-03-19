@@ -1,3 +1,5 @@
+import random
+
 # Async work Monday March 18th, 2024.
 
 #1. Create a function that will count the number of characters in a string
@@ -19,8 +21,17 @@ characterCount()
 # a simple rock, paper, scissors game. Your game should allow the user to enter a letter
 # that will represent the values rock, paper, and scissors (ex. r = rock, p = paper, s= scissors).
 
+#keywords:
+# value
+# variables
+# enter == input()
+
 def rock_paper_scissors():
-    
+    RPS = input()
+    if RPS == "r":
+        print("Rock")
+
+random.randrange()
 
 # EXTREMELY IMPORTANT NOTE
 # at the top of you page write import random
