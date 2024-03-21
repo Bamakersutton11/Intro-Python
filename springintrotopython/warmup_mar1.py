@@ -12,7 +12,7 @@ def gradeBook(grades):
     else: 
         print('F')
 
-gradeBook(101)
+gradeBook(70)
 
 membership_level = ['bronze'+ 'silver' + 'gold' + 'platinum']
 bronzeBenefits = []
