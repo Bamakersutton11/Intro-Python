@@ -105,7 +105,7 @@ def honors_system(SAT, GPA):
     elif SAT == True and GPA == False:
         print("Congrats on taking the SAT, but you have not made the list.")
     elif SAT == False and GPA == True:
-        print("Congrats on getting an 85 percentage or above, but you have not the list.")
+        print("Congrats on getting an 85 percentage or above, but you have not made the list.")
     else:
         print("Sorry, you did not meet any of the requirements for the academics honors list. We encourage you to study harder until next time.")
     
