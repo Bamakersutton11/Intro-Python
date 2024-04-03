@@ -69,6 +69,38 @@
 # the client has provided you with the following meal plan information
 # Please provide three (3) clues/ keywords and explain why you chose them to get full credit.
 
+def fitnessMealplan(dayOfWeek, timeOfDay):
+    if dayOfWeek == 'Mon' and timeOfDay == 'Morning':
+        print("2 eggs and an apple.")
+    elif dayOfWeek == 'Mon' and timeOfDay == 'Afternoon':
+        print("BBQ grilled chicken and broccoli")
+    elif dayOfWeek == 'Tue' and timeOfDay == 'Morning':
+        print("Oatmeal with strawwberries and blueberries")
+    elif dayOfWeek == 'Tue' and timeOfDay == 'Afternoon':
+        print("Baked chicken with kale")
+    elif dayOfWeek == 'Wed' and timeOfDay == 'Morning':
+        print("Fruit salad")
+    elif dayOfWeek == 'Wed' and timeOfDay == 'Afternoon':
+        print("Curry goat with rice and cabbage")
+    elif dayOfWeek == 'Thurs' and timeOfDay == 'Morning':
+        print("Pancakes and turkey sausage")
+    elif dayOfWeek == 'Thurs' and timeOfDay == 'Afternoon':
+        print("Eggplant pasta")
+    elif dayOfWeek == 'Fri' and timeOfDay == 'Morning':
+        print("Steak and eggs")
+    elif dayOfWeek == 'Fri' and timeOfDay == 'Afternoon':
+        print("Cheeseburger and fries")
+    elif dayOfWeek == 'Sat' and timeOfDay == 'Morning':
+        print("Oatmeal")
+    elif dayOfWeek == 'Sat' and timeOfDay == 'Night':
+        print("Baked chicken with string beans")
+    elif dayOfWeek == 'Sun' and timeOfDay == 'Morning':
+        print("Oatmeal")
+    elif dayOfWeek == 'Sun' and timeOfDay == 'Night':
+        print("Steak and spinach")
+
+fitnessMealplan('Tue', 'Morning')
+
 # monday morning= 2 eggs and an apple
 # monday afternoon= bbq grilled chicken and broccoli
 
