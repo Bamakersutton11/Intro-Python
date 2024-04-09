@@ -10,4 +10,13 @@
 # user guesses the word correctly, your program shoul tell the user they have 
 # guessed correctly and have won the game, stopping the loop.
 
-while 
+def wordCheck():
+    wordEntered = input('Enter word: ')
+    correctWord = 'Bright'
+    while wordEntered != correctWord:
+        wordEntered = input('Please try again: ')
+    if wordEntered == correctWord:
+        print('This word is correct. Congratulations.')
+
+wordCheck()
+
