@@ -19,10 +19,22 @@
 # a new list variable called orange list. Else, if the loop encounters
 # any other fruit, it should move that item to a list called unsorted fruits.
 
-fruits = ['apples','oranges','kiwi','banana']
+def fruitAssort():
+    fruits = ['apple','orange','kiwi','banana','apple']
+    apples = []
+    oranges = []
+    for fruit in fruits:
+        if fruit == 'apple':
+            fruits.remove('apple')
+            apples.insert(0,'apple')
+            print(apples)
+    for fruit in fruits:        
+        if fruit == 'orange':
+            fruits.remove('orange')
+            oranges.insert(0, 'orange')
+            print(oranges)
 
-for fruit in fruits:
-    
+fruitAssort()
 
 # Note: In order to recieve the minimum amount of credit, 
 # write down any clues or keywords that you recognize in the prompt 
