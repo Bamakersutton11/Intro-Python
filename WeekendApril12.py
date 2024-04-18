@@ -14,7 +14,20 @@
 # Write down clues, keywords, and breakdown and explain how you would approach this problem 
 # in order to get full credit. 
  
+def alphabet_loop():
+    alphabetList = ['a','b','c','d','e','f','g','h','i','j']
+    for letter in range(0, len(alphabetList),5):
+        print(alphabetList[letter])
+alphabet_loop()
+ #Breakdown - 
+
 # 4A. Use W3schools to learn about the range() function. Describe how what the range
 # function is and how it works.  
 
 #4B. Then, create a loop using the range function that will only print multiples of 3 between 1 and 30. 
+def multiplyLoop():
+    My_list = range(1,30)
+    for number in My_list:
+        print(number*3)
+multiplyLoop()
+
