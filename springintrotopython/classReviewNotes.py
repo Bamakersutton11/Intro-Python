@@ -15,17 +15,17 @@
 # Note - when we are writing programs, all we are doing is talking to a computer
 # and giving it instructions to complete a task. 
 
-# string "str" = Allows for isolated characters like words
-# integer "int" = A whole number; a non-decimal
-# float = a decimal number
-# Boolean = a true or false value 
-# print "print()" = a function that prints the information you provide
+# string "str" = )" = a function that prints the information you provide
 # input "input()" = a function that takes in the information you provide
 
 # How to write a function in python
 
 def myFunction():
-    print("Here are my instructions...")
+    print("HereAllows for isolated characters like words
+# integer "int" = A whole number; a non-decimal
+# float = a decimal number
+# Boolean = a true or false value 
+# print "print( are my instructions...")
 
 # How to write a function in JavaScript
 
