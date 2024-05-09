@@ -1,0 +1,10 @@
+My goal is to create a chat ai that allows user to search the web, perform mathematical equations, 
+shows the date and time, and can even have conversations about different topics. These include topics like what happened 
+in a previous football, basketball, baseball, or soccer game. It can even provide resources to different sites that can help you with anywork that you may need.
+
+The chat ai program aims to solve problems like: someone wants to talk about particular topics, they want to gather information on academical
+subjects(math, english, and/or history), and may need quick answers to problems. People are often unable have someone to talk to, find information correctly,
+and get quick solutions for something simple. This is where the chat ai does its job to fulfill these things. 
+
+The intended auidence for my app are students in school who need help with work for specifically those in high school or college where the curriculum tends to be
+rigorous. This app can be used for anyone or anything such as research, conversations, and etc.
