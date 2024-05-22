@@ -22,9 +22,12 @@ def DiscoveryAI():
 
 
     def mathHelp():
-        userEquation = input("Enter equation> ")
-        userEquation.find("x")
-        print(userEquation.find("x"))
+        userNumber = int(input("Enter number> "))
+        userEquation = input("What would you like to find?> ")
+        if userEquation == "the sine of" or "sin":
+            print(math.sin(userNumber))
+        elif userEquation == "the cosine of" or "cos":
+            print(math.cos(userNumber))
     mathHelp()
 DiscoveryAI()
 
